@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body, html{
+    background-color: rgb(134, 174, 214);
+    height: 100%;
+    
+}
+
+header {
+    background-color: rgb(13, 7, 9);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    font-size: 15px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.imagen-fondo{
+    background-image: url("../img/fondo.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imagen-texto{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color:azure;
+    font-size: 20px;
+}
+
+.imagen-texto p{
+
+    font-style: inherit;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.titulo{
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: azure;
+    text-align: center;
+}
+
+.flex-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-height: 900px ;
+}
+
+
+.flex-item{
+    position: relative;
+    text-align: center;
+}
+.img-pro{
+    border-radius: 10px;
+    
+}
+.contenedor{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.items{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(39, 56, 82);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: 0 4px 10px;
+    margin: 20px;
+}
+
+.items p{
+    color: white;
+}
+
+.imagen-servicios{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.img-planes{
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: -70px;
+    width: 230px;
+}
+
+.caja{
+    
+    max-width: 800px;
+    background-color: rgb(39, 56, 82);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+article{
+    margin: 80px 20px;
+    
+}
+
+.caja1{
+   
+    max-width: 900px;
+    background-color: rgb(39, 56, 82);
+    border-radius: 10px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: stretch;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+
+.item{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+    
+    
+}
+
+.h1-planes{
+    margin: 40px;
+    text-align: center;
+    color: rgb(150, 93, 93);;
+}
+
+.img-opiniones{
+    width: 300px;
+    height: 200px;
+    border-radius: 60%;
+
+}
+
+.img-staf{
+    height: 300px;
+    width: 200px;
+    border-radius: 40px;
+    display: flex;
+    align-self: center;
+}
+
+.formulario{
+    background-color: rgb(39, 56, 82);
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+    text-align: center;
+}
+
+.form{
+    background-color: rgb(39, 56, 82);
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+    text-align: center;
+   
+}
+
+.form-input{
+    width: 100%;
+    background: none;
+    color: rgb(150, 93, 93);
+    font-size: 1rem;
+    padding: 40px 3px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid;
+    
+
+}
+
+.form-label{
+    
+    color: azure;
+    
+}
+
+.boton-form{
+    background: rgb(150, 93, 93);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+option{
+    background-color: rgb(39, 56, 82);
+    color: white;
+    
+}
+
+.cont{
+
+    margin: 50px 20px;
+    display: grid;
+    grid-column-gap:100px;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+    justify-items: center;
+       
+}
+
+.galeria{
+    margin-top: 30px;
+    text-align: center;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.galeria p{
+    color: azure;
+}
+
+.img-gal{
+
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    color: azure;
+}
+
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin: 0;
+    padding: 0;
+    }
+
+    header{
+        height: 70px;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        padding-top: 60px;
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .caja{
+
+    max-width: 500px;
+    
+    }
+
+    .caja1{
+
+    max-width: 500px;
+    
+    }
+
+    
+    .cont{
+        margin: 50px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    .order-1{
+        order: 0;
+    }
+    .order-2{
+        order: 0;
+    }
+
+    .order-3{
+        order:4;
+    }
+    .order-4{
+        order:3;
+    }
+    .order-5{
+        order:5;
+    }
+    .order-6{
+        order:6;
+    }
+
+    .img-pro{
+        border-radius: 10px;
+        height: 200px;
+        width: 300px;
+    }
+
+    .caja{
+        max-width: 500px;
+        
+    }
+
+    .item{
+        display: flex;
+        flex-direction: row;
+        margin-left: 90px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+            
+    }
+
+    .formulario{
+        background-color: rgb(39, 56, 82);
+        margin: 30px auto;
+        width: 60%;
+        max-width: 450px;
+        padding: 30px 40px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px;
+        text-align: center;
+    }
+   
+
+
+}
+
