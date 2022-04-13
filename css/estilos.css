@@ -16,6 +16,12 @@ body, html{
     height: 60px;
 }
 
+a:link, a:visited,  a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
 /* header {
     background-color: rgb(13, 7, 9);
     height: 60px;
@@ -95,8 +101,19 @@ ul li a{
 }
 .img-pro{
     border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
     
 }
+
+.tarjeta-proyecto{
+    width: 25rem;
+    border-top-left-radius: 0%; 
+    border-top-right-radius: 0%;
+    background-color: rgb(39, 56, 82);
+    color: white;
+}
+
 .contenedor{
     padding: 20px;
     display: flex;
@@ -107,7 +124,7 @@ ul li a{
 }
 
 .items{
-    width: 200px;
+    width: 300px;
     text-align: center;
     background-color: rgb(39, 56, 82);
     padding: 40px;
@@ -118,6 +135,33 @@ ul li a{
     border: none;
     box-shadow: 0 4px 10px;
     margin: 20px;
+}
+
+.fondo{
+    
+    width: 800px;
+    background-color: rgb(39, 56, 82);
+    border: none;
+    box-shadow: 0 4px 10px;
+    padding: 50px;
+
+}
+
+.fondo h5{
+    color: white;
+    
+    margin-bottom: 40px;
+}
+
+.fondo p{
+    color: white;
+    font-style: italic;
+    
+}
+.img-opiniones{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .items p{
@@ -176,7 +220,7 @@ article{
     flex-direction: row;
     margin-left: 50px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 50px;
     
     
@@ -188,12 +232,7 @@ article{
     color: rgb(150, 93, 93);;
 }
 
-.img-opiniones{
-    width: 300px;
-    height: 200px;
-    border-radius: 60%;
 
-}
 
 .img-staf{
     height: 300px;
@@ -254,6 +293,8 @@ article{
     padding: 10px;
 }
 
+
+
 option{
     background-color: rgb(39, 56, 82);
     color: white;
@@ -308,7 +349,7 @@ footer{
     padding: 0;
     }
 
-    header{
+   /*  header{
         height: 70px;
         display: grid;
         align-content: center;
@@ -330,7 +371,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    } */
 
     .caja{
 
@@ -344,6 +385,10 @@ footer{
     
     }
 
+    .item.form-label{
+        text-align: center;
+    }
+
     
     .cont{
         margin: 50px 20px;
@@ -352,30 +397,31 @@ footer{
     }
 
     
-    .order-1{
+    .orden-1{
         order: 0;
     }
-    .order-2{
+    .orden-2{
         order: 0;
     }
 
-    .order-3{
+    .orden-3{
         order:4;
     }
-    .order-4{
+    .orden-4{
         order:3;
     }
-    .order-5{
+    .orden-5{
         order:5;
     }
-    .order-6{
+    .orden-6{
         order:6;
     }
 
     .img-pro{
         border-radius: 10px;
-        height: 200px;
-        width: 300px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        
     }
 
     .caja{
@@ -383,14 +429,14 @@ footer{
         
     }
 
-    .item{
+     .item{
         display: flex;
         flex-direction: row;
         margin-left: 90px;
         flex-wrap: wrap;
         justify-content: flex-start;
             
-    }
+    } 
 
     .formulario{
         background-color: rgb(39, 56, 82);
@@ -402,7 +448,37 @@ footer{
         box-shadow: 0 5px 10px;
         text-align: center;
     }
-   
+
+    .fondo{
+    
+        background-color: rgb(39, 56, 82);
+        border: none;
+        box-shadow: 0 4px 10px;
+        text-align: center;
+       
+        
+    }
+    .fondo h5{
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .fondo p{
+        color: white;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 50px;
+        
+    }
+    .img-opiniones{
+        
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
+    
+    }
 
 
 }
