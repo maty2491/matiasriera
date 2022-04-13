@@ -14,15 +14,15 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
            
             <div class="container-fluid">
                 <img src="./img/logo.png" class="logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-center">
                   <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                   <a class="nav-link" href="./htmls/conocenos.html">CONOCENOS</a>
                   <a class="nav-link" href="./htmls/proyectos.html">PROYECTOS</a>
@@ -55,9 +55,9 @@
         <div class="imagen-texto">
             <h1>PROYECTO FINAL</h1>
             <p> <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, laudantium ad. Est debitis rerum suscipit.</strong></p>
-            <div class="flex-item">
-                <input type="submit" class="boton-form" value="CONOCENOS"><a href="./htmls/conocenos.html"></a>
-             </div>
+            <div class="d-grid d-md-flex justify-content-md-center me-3">
+                <button type="button"  class="btn btn-success btn-lg"> <a href="./htmls/conocenos.html"> CONOCENOS</a></button>
+              </div>
         </div>
     </div>
     
@@ -65,91 +65,124 @@
     
     <section>
         <article id="proyectos">
-            <div class="contenedor">
-                    <div class="items">
+            <div class="contenedor ">
+               
+                    
+                        <div class="items ">
                         
-                        <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
+                            <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
+    
+                        </div>
+                   
+
+                        
+                            <div class="items">
+                    
+                                <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
+            
+                            </div>
+                     
+
+                       
+                            <div class="items">
+                   
+                                <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
+            
+                            </div>
+
+                      
+
+                       
+
+                            <div class="items">
+                   
+                                <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
+            
+                            </div>
+
 
                     </div>
-                    
-                <div class="items">
-                    
-                    <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
 
-                </div>
-            
-                <div class="items">
-                   
-                    <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
-
-                </div>
                 
-                <div class="items">
-                   
-                    <img class="imagen-servicios" src="https://i.picsum.photos/id/508/200/200.jpg?hmac=K4JUehX1v2yEPLUOyJDAmRhZu8PgMu4vv6ypO-CA5nw" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis.</p>
-
-                </div>
-                 
+                                
             </div>
-            <div class="contenedor">
-                <input type="submit" value="PROYECTOS" class="boton-form">
+            <div class="contaiener">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button"  class="btn btn-success btn-lg"> <a href="./htmls/proyectos.html"> PROYECTOS </a></button>
+                    </div>
+                </div> 
             </div>
         </article>
        
 
 
         <article id="opiniones">
-            
-            <div class="caja">
+
+
+            <div class="container">
                 
-                     <img class="img-opiniones" src="https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI" alt="Imagen persona">
-                
-                    <div class="item">
-                        <h3 >NOMBRE PERSONA</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam est eveniet modi quam? Natus, deserunt.</p>
-                        <input type="submit" value="OPINIONES" class="boton-form">
-                    </div>           
-                    
+                <div class="row">
+                    <div class="card mb-3 fondo">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI" class="img-opiniones" alt="...">
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body ms-4">
+                              <h5 class="card-title">NOMBRE PERSONA</h5>
+                              <p class="card-text">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam est eveniet modi quam? Natus, deserunt."</p>
+                              <div class="d-grid d-md-flex justify-content-md-center me-3">
+                              <button type="button"  class="btn btn-success btn-lg"> <a href="./htmls/opiniones.html"> OPINIONES </a></button>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
             </div>
-            
+
+                     
         </article>
         
         <article  id="forma_parte">
         
             
-            <form class="caja1">
-                <h3 class="titulo">SUMATE A NUESTRO STAFF</h3>
-                    <div class="item">
-                         <label for="nombre" class="form-label">Nombre</label>
-                         <input type="text" id="nombre"  class="form-input" placeholder="Ingrese su nombre" required>
+            <form class="formulario">
+                <h2 class="titulo">FORMULARIO DE CONTACTO</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <label for="" class="form-label">NOMBRE Y APELLIDO</label>
+                        <input type="text" placeholder="Ingrese su nombre y apellido" class="form-input">
                     </div>
-                
-                
-                    <div class="item">
-                         <label for="mail" class="form-label">Email</label>
-                        <input type="email" id="mail" class="form-input" placeholder="Ingrese su correo" required>
+                    <div class="flex-item">
+                        <label for="" class="form-label">CORREO</label>
+                        <input type="email" placeholder="Ingrese su correo electronico" class="form-input">
                     </div>
-                
-                <div class="item">
-                    <label for="nombre" class="form-label">País</label>
-                    <select name="paises" class="form-input" id="paises">
-                        <option value="">Seleccione su país</option>
-                        <option value="1">Argentina</option>
-                        <option value="2">Chile</option>
-                        <option value="3">Colombia</option>
-                        <option value="4">España</option>
-                    </select>
-                    
+                    <div class="flex-item">
+                        <label for="nombre" class="form-label">País</label>
+                        <select name="paises" class="form-input" id="paises">
+                            <option value="">Seleccione su país</option>
+                            <option value="1">Argentina</option>
+                            <option value="2">Chile</option>
+                            <option value="3">Colombia</option>
+                            <option value="4">España</option>
+                        </select>
+                        <div class="d-grid d-md-flex justify-content-md-center me-3">
+                            <button type="button"  class="btn btn-success btn-lg">ENVIAR CONSULTA</button>
+                          </div>
                 </div>
-                <input type="submit" class="boton-form" value="Enviar" name="" id="">
-                                   
-                   
                 
             </form>
+                
+                
+                    
+                
             
         </div>
         </article>
