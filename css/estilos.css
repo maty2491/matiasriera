@@ -226,6 +226,71 @@ article{
     
 }
 
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #f5f4f4;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.container2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container2 .tarjeta{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0  2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgb(39, 56, 82);
+}
+
+.container2 .tarjeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.container2 .tarjeta img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container2 .tarjeta h4{
+    font-weight: 600;
+    color: rgb(235, 139, 14);
+}
+
+.container2 .tarjeta p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: aliceblue;
+}
+.container2 .tarjeta a{
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.encabezado{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
 .h1-planes{
     margin: 40px;
     text-align: center;
