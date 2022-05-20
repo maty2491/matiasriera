@@ -54,6 +54,15 @@ ul li a{
     text-decoration: none;
 } */
 
+
+.btn-floating{
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    width: 2.3125rem;
+    height: 2.3125rem;
+}
+
 .imagen-fondo{
     background-image: url("../img/info.jpg");
     height: 50%;
